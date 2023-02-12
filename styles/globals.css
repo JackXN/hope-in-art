@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -105,3 +108,11 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.active {
+  background-color: #EAB2BB;
+  padding: 15px;
+  border-radius: 10px;
+}
+
