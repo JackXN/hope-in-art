@@ -1,6 +1,6 @@
 const styles = {
     container: {
-        background: 'orange',
+        background: '#EBE4E7',
         height: '100vh',
         backgroundImage: './HeroBgTwo.png',
         backgroundRepeat: 'none',
@@ -21,7 +21,7 @@ const styles = {
         textAlign: 'center',
         
         p: {
-            fontSize: ['17px'],
+            fontSize: ['17px', '17px', '17px', '25'],
             fontFamily: 'Indie Flower',
             color:'white'
         }
@@ -44,7 +44,7 @@ const styles = {
 
         h2: {
             color: '#ffff',
-            fontSize: '16'
+            fontSize: ['18px', '18px', '18px', '23px']
             
         }
     }
