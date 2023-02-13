@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+
+@font-face {
+  font-family: "SignPainter";
+  src: url('../fonts/SignPainter-HouseScript-01.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
