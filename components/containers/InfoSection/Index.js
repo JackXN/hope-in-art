@@ -7,20 +7,20 @@ import Image from 'next/image';
 
 const SERVICE_OPTIONS = [
     {
-        label: "Art Supplies",
+        label: "Access To Art Supplies",
         icon: {PaintBrush}
     },
 
     {
-        label: "Art Supplies",
+        label: "Connection To Community",
         icon: {PaintBrush}
     },
     {
-        label: "Art Supplies",
+        label: "Access To Classes",
         icon: {PaintBrush}
     },
     {
-        label: "Art Supplies",
+        label: "Oppurtunity To Share",
         icon: {PaintBrush}
     },
 ]

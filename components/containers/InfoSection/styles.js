@@ -91,7 +91,7 @@ flex: 2,
     },
 
     imageBanner: {
-        background: '#79D7D3',
+        background: '#0c5e52',
         position: 'relative',
         bottom: ['10px'],
         zIndex: '10',
@@ -108,14 +108,15 @@ flex: 2,
             fontSize: ['14px'],
             pt: '0px',
             pb: '10px',
-            color: '#08423E',
+            // color: '#08423E',
+            color: '#FFFFFF',
             fontFamily: 'Montserrat'
             
         },
 
         h3: {
             fonSize: ['30px'],
-            color: '#2B343B'
+            color: '#FFFFF'
         }
     },
 }
