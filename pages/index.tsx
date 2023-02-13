@@ -13,6 +13,7 @@ import Navbar from '../components/containers/Navbar/index';
 import Hero from '../components/containers/Hero/index';
 import InfoSection from '../components/containers/InfoSection/Index';
 
+
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
