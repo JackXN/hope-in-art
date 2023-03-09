@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import {getProducts} from '../services/index';
 import AOS from 'aos';
-
+import {Box} from '@chakra-ui/react';
 
 
 // Components
@@ -13,6 +13,17 @@ import Navbar from '../components/containers/Navbar/index';
 import Hero from '../components/containers/Hero/index';
 import InfoSection from '../components/containers/InfoSection/Index';
 import AboutSection from '../components/containers/AboutSection/index';
+import ContributionSection from '../components/containers/ContributionSection/Index';
+
+
+
+
+
+
+
+//! UPDATE BACKGROUND COLOR TO GRADIENT.
+// ? linear-gradient(135deg, #E5DDE1 0%, #E0DCEA 100%)
+
 
 const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
@@ -31,11 +42,12 @@ useEffect(() => {
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-          <Navbar/>
+      <Box>
+          {/* <Navbar/> */}
           <Hero/>
-          <InfoSection/>
-          <AboutSection/>
-
+          {/* <InfoSection/> */}
+          {/* <AboutSection/> */}
+          </Box>
       
     </>
   )

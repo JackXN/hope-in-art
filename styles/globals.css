@@ -1,7 +1,22 @@
+
+
+/* Julee */
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+/* Indie Flower */
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+/* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap');
 @font-face {
   font-family: "SignPainter";
   src: url('../fonts/SignPainter-HouseScript-01.otf');
