@@ -58,15 +58,15 @@ mb: [null,null,null,'120px'],
 
     banner: {
         content: '""',
-        height: '75vh',
+        height: '85vh',
         width: '2000px',
         background: '#3E6AA6',
         position: 'absolute',
         left: '-350px',
-        top: '184px',
+        top: '290px',
         bottom: '0',
         transform: 'rotate(160deg)',
-        zIndex: 1,
+        zIndex: 0,
         boxShadow: '10px 10px 10px rgba(0,0,0,0.2)'
     },
 
@@ -75,7 +75,7 @@ mb: [null,null,null,'120px'],
         // mt: ['20px'],
         padding: ['20px'],
         flex: 2,
-        textAlign: ['center', 'center', 'center', 'left'],
+        textAlign: ['center', 'center', 'center', ''],
         zIndex: 10,
         position: 'relative',
         bottom: [null,null,null,'61px'],
@@ -101,7 +101,8 @@ mb: [null,null,null,'120px'],
             fontFamily:'Lato',
             color: 'lightgray',
             fontSize: ['16px'],
-            width: '70%'
+            width: ['100%'],
+
         
         }
     },

@@ -14,7 +14,7 @@ import Hero from '../components/containers/Hero/index';
 import InfoSection from '../components/containers/InfoSection/Index';
 import AboutSection from '../components/containers/AboutSection/index';
 import ContributionSection from '../components/containers/ContributionSection/Index';
-
+import InfoContainer from '../components/containers/Hero/InfoContainer';
 
 
 
@@ -45,6 +45,7 @@ useEffect(() => {
       <Box>
           {/* <Navbar/> */}
           <Hero/>
+          <InfoContainer/>
           {/* <InfoSection/> */}
           {/* <AboutSection/> */}
           </Box>
