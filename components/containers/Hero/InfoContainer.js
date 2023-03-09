@@ -10,15 +10,15 @@ import Intro from './Intro';
 
 const InfoContainer = () => {
   return (
-    <div
-    style={{
-      padding: ['15px'],
-    }}
-    >
+<Box padding={['15px']}
+display='flex'
+flexDirection={['column', 'column', 'row']}
 
-  <Intro/>
+>
+  
   <Announcement/>
-    </div>
+  <Intro/>
+</Box>
   )
 }
 

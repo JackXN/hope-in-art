@@ -14,7 +14,6 @@ const Intro = () => {
     </Box>
     <Button
     bg='none'
-    
     ><Link>See Our Programs</Link> <Arrow/></Button>
     </Box>
   )
@@ -29,6 +28,9 @@ const styles = {
     boxShadow: '10px 10px 10px rgba(0,0,0,0.2)',
     padding: '18px 19px',
     mt: ['150px'],
+    width: ['100%', '50%'],
+    // flex: 2,
+    
 
 
     h2: {

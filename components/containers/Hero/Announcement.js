@@ -30,9 +30,13 @@ const styles = {
         flexDirection: 'column',
         backgroundColor: '#375F98',
         padding: '15px 16px',
-        height: '120%',
-        mt: ['90px'],
+        height: ['120%', '120%' ,'250px'],
+        mt: ['90px', '90px', '35%'],
         mb: ['100px'],
+        flex: 1,
+        
+ 
+        
 
     p: {
         fontFamily: 'Lato',
@@ -48,9 +52,10 @@ const styles = {
     Button: {
         backgroundColor: '#CCF1FE',
         color: 'black',
-        width: ['50%'],
+        // width: ['50%'],
         position: 'relative',
-        top: ['50px']
+        top: ['50px'],
+        borderRadius: '0px'
         
     }
 

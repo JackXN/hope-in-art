@@ -34,11 +34,12 @@ const styles = {
 
     headerImage: {
 height: ['100%'],
-width: ['100%', '100%', '25%', '25%'],
+width: ['100%', '100%', '50%', '50%', '25%'],
 position: 'relative',
-left: [null, null,null,'120px'],
-top: [null,null,null, '35px'],
-mb: [null,null,null,'120px'],
+left: [null, null,null,'null', '155px',],
+top: [null,null,null, '35px', '300px',],
+mb: [null,null,null,'120px'], 
+right: [null,null,null ]
 
 
     },
@@ -50,20 +51,16 @@ mb: [null,null,null,'120px'],
         // backgroundColor: '#3489B0',
         display: 'flex',
         flexDirection: ['column','column', 'column','row'],
-        
-
-
-        
     },
 
     banner: {
         content: '""',
-        height: '85vh',
+        height: ['85vh','85vh','55vh','62vh'],
         width: '2000px',
         background: '#3E6AA6',
         position: 'absolute',
         left: '-350px',
-        top: '290px',
+        top: ['290px', '450', '450', '450','675px'],
         bottom: '0',
         transform: 'rotate(160deg)',
         zIndex: 0,
@@ -73,16 +70,17 @@ mb: [null,null,null,'120px'],
 
     heroText: {
         // mt: ['20px'],
-        padding: ['20px'],
+        padding: ['px'],
         flex: 2,
-        textAlign: ['center', 'center', 'center', ''],
+        textAlign: ['center', 'center', 'center'],
         zIndex: 10,
         position: 'relative',
-        bottom: [null,null,null,'61px'],
+        bottom: [null,null,null, '35px'],
+        top: ['90px', '90px', '60px','125px', '150px', '250px'],
 
         h1: {
             color: '#FFFFFF',
-            fontSize: '28px',
+            fontSize: ['28px', '28px', '33px'],
             fontFamily: 'Roboto',
             fontWeight: 'bold',
             // textShadow: '2px 2px  1px black',
@@ -100,35 +98,42 @@ mb: [null,null,null,'120px'],
             color: '#FFFFFF',
             fontFamily:'Lato',
             color: 'lightgray',
-            fontSize: ['16px'],
-            width: ['100%'],
+            fontSize: ['16px', '16px', '17px'],
+        
+           
+            
 
         
         }
     },
     buttonContainer: {
         display: 'flex',
-        flexDirection: ['column', 'column', 'column', 'row'],
+        flexDirection: ['column', 'column', 'row', 'row'],
         justifyContent: ['center'],
         position: 'relative',
         top: [null,null,null,'100px'],
-        mt: ['30px',null,null,'50px'],
+        mt: ['30px',null,'150px','50px'],
+        
+        
         
 
 
 
         Button: {
             margin: ['13px'],
-            padding: '23px 23px 23px',
-            fontFamily: 'Lato'
+            padding: '20px 20px 23px',
+            fontFamily: 'Lato',
+            width: ['50%', '75%', '20%']
+
         }
     },
 
     heroImage: {
         height: ['100%', ],
-        width: ['100%', '100%', '100%'],
+        width: ['100%', '100%', '50%', '90%'],
         position: 'relative',
-       bottom: ['0px', '0px', '0px','250px'],
+       bottom: ['0px', '0px', '0px'],
+   
        zIndex: 2,
        boxShadow: '8px 4px rgba(0,0,0,0.1)'
        
@@ -150,7 +155,7 @@ mb: [null,null,null,'120px'],
         bg:'#2BA4E8',
         color:'white',
         borderRadius:'0',
-        fontSize: '19px'
+        
         
     }
 
