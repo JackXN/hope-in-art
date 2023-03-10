@@ -17,6 +17,7 @@ import ContributionSection from '../components/containers/ContributionSection/In
 import InfoContainer from '../components/containers/Hero/InfoContainer';
 import WhatWeDo from '../components/containers/WhatDoWeDo/index';
 import Background from '../components/Background';
+import Difference from '../components/containers/DifferenceSection/Index';
 
 
 
@@ -47,6 +48,7 @@ useEffect(() => {
           <Hero/>
           <InfoContainer/>
           <WhatWeDo/>
+          <Difference/>
         {/* <Background/> */}
           {/* <InfoSection/> */}
           {/* <AboutSection/> */}
