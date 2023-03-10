@@ -15,8 +15,8 @@ import InfoSection from '../components/containers/InfoSection/Index';
 import AboutSection from '../components/containers/AboutSection/index';
 import ContributionSection from '../components/containers/ContributionSection/Index';
 import InfoContainer from '../components/containers/Hero/InfoContainer';
-
-
+import WhatWeDo from '../components/containers/WhatDoWeDo/index';
+import Background from '../components/Background';
 
 
 
@@ -42,10 +42,12 @@ useEffect(() => {
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box>
+      <Box padding='10px'>
           {/* <Navbar/> */}
           <Hero/>
           <InfoContainer/>
+          <WhatWeDo/>
+        {/* <Background/> */}
           {/* <InfoSection/> */}
           {/* <AboutSection/> */}
           </Box>

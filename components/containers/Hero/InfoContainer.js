@@ -14,7 +14,7 @@ const InfoContainer = () => {
 display='flex'
 flexDirection={['column', 'column', 'row-reverse']}
 position='relative'
-top={[null]}
+top={[null, null,null,'-20px', '-150px']}
 >
 <Intro/>
   <Announcement/>

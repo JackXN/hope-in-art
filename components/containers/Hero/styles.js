@@ -34,10 +34,10 @@ const styles = {
 
     headerImage: {
 height: ['100%'],
-width: ['100%', '100%', '50%', '50%', '25%'],
+width: ['100%', '100%', '50%', '25%', '25%'],
 position: 'relative',
-left: [null, null,null,'null', '155px',],
-top: [null,null,null, '35px', '300px',],
+left: [null, null,null,'100px', '155px',],
+top: [null,null,null, '290px', '300px',],
 mb: [null,null,null,'120px'], 
 right: [null,null,null ]
 
@@ -56,7 +56,7 @@ right: [null,null,null ]
 
     banner: {
         content: '""',
-        height: ['85vh','85vh','85vh','62vh'],
+        height: ['85vh','85vh','85vh','85vh', '85vh','85vh','62vh'],
         width: '2000px',
         background: '#3E6AA6',
         position: 'absolute',
@@ -77,7 +77,7 @@ right: [null,null,null ]
         zIndex: 10,
         position: 'relative',
         bottom: [null,null,null, '35px'],
-        top: ['90px', '90px', '90px','125px', '150px', '250px'],
+        top: ['90px', '90px', '90px','165px', '150px', '250px'],
         
 
         h1: {
