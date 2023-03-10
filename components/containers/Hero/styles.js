@@ -51,11 +51,12 @@ right: [null,null,null ]
         // backgroundColor: '#3489B0',
         display: 'flex',
         flexDirection: ['column','column', 'column','row'],
+        pt: '20px'
     },
 
     banner: {
         content: '""',
-        height: ['85vh','85vh','55vh','62vh'],
+        height: ['85vh','85vh','85vh','62vh'],
         width: '2000px',
         background: '#3E6AA6',
         position: 'absolute',
@@ -76,7 +77,8 @@ right: [null,null,null ]
         zIndex: 10,
         position: 'relative',
         bottom: [null,null,null, '35px'],
-        top: ['90px', '90px', '60px','125px', '150px', '250px'],
+        top: ['90px', '90px', '90px','125px', '150px', '250px'],
+        
 
         h1: {
             color: '#FFFFFF',
@@ -88,8 +90,9 @@ right: [null,null,null ]
             mb: ['22px'],
             // background: '#3E6DA6',
             // transform: 'skewY(-20deg)',
+            textAlign: ['center','center', 'center', 'left'],
             
-            mt: [null, null,null,'40px','90px']
+            mt: [null, null,null,'40px','100px']
 
             
         },
@@ -99,6 +102,9 @@ right: [null,null,null ]
             fontFamily:'Lato',
             color: 'lightgray',
             fontSize: ['16px', '16px', '17px'],
+            textAlign: ['center','center', 'center', 'left'],
+            width: [null,null,null,'75%','45%',],
+            
         
            
             

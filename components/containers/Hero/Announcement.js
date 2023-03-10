@@ -31,9 +31,14 @@ const styles = {
         backgroundColor: '#375F98',
         padding: '15px 16px',
         height: ['120%', '120%' ,'250px'],
-        mt: ['90px', '90px', '35%'],
+        mt: ['90px', '90px', '35%', '20'],
+        boxShadow: '10px 10px 10px rgba(0,0,0,0.2)',
         mb: ['100px'],
         flex: 1,
+        margin: ['30px'],
+        marginTop: ['30px'],
+        width: ['90%', '90%'],
+    
         
  
         
@@ -54,7 +59,7 @@ const styles = {
         color: 'black',
         // width: ['50%'],
         position: 'relative',
-        top: ['50px'],
+        top: ['50px', '50px', '50px', '90px'],
         borderRadius: '0px'
         
     }
@@ -64,7 +69,7 @@ const styles = {
 
     textContainer: {
         position: 'relative',
-        top: ['20px']
+        top: ['20px', '20px', '20px', '40px']
     }
 
 

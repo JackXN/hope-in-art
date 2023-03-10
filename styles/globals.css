@@ -17,6 +17,9 @@
 
 /* Playfair Display */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap');
+
+
+
 @font-face {
   font-family: "SignPainter";
   src: url('../fonts/SignPainter-HouseScript-01.otf');

@@ -23,13 +23,15 @@ const Intro = () => {
 
 const styles = {
     container: {
-        mt: ['30px'],
+        mt: ['30px', '30px', '30px',],
     backgroundColor: '#CCF1FE',
     boxShadow: '10px 10px 10px rgba(0,0,0,0.2)',
     padding: '18px 19px',
-    mt: ['150px'],
-    width: ['100%', '50%'],
-    // flex: 2,
+    mt: ['150px' , '150px', '150px', '0px'],
+    width: ['100%', '50%', null,'43%'],
+    height: '100%',
+    // flex: [null, null, null, 3],
+    
     
 
 
