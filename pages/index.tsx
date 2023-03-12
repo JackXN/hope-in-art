@@ -18,7 +18,7 @@ import InfoContainer from '../components/containers/Hero/InfoContainer';
 import WhatWeDo from '../components/containers/WhatDoWeDo/index';
 import Background from '../components/Background';
 import Difference from '../components/containers/DifferenceSection/Index';
-
+import ServiceContainer from '../components/containers/ServiceContainer';
 
 
 
@@ -48,7 +48,8 @@ useEffect(() => {
           <Hero/>
           <InfoContainer/>
           <WhatWeDo/>
-          <Difference/>
+          <ServiceContainer/>
+          {/* <Difference/> */}
         {/* <Background/> */}
           {/* <InfoSection/> */}
           {/* <AboutSection/> */}

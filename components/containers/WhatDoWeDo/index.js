@@ -74,7 +74,6 @@ mt: ['150px', null, null, null, '0px']
         mt: ['125px', null, null ,null ,0],
         display: 'flex',
         flexDirection: ['column', 'column', 'column', 'row'],
-
         padding: ['30px'],
         p: {
             fontFamily: 'Source Sans Pro',
@@ -96,6 +95,7 @@ mt: ['150px', null, null, null, '0px']
         p: {
             mt: ['30px'],
             fontSize: ['16px'],
+            
         },
 
         Button: {
@@ -108,12 +108,9 @@ mt: ['150px', null, null, null, '0px']
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-    
- 
         height: '100%',
         width: ['100%'],
         content: '""',
-      
         // background: 'orange',
     //   width: '600px',
       position: 'relative',
