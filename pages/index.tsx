@@ -49,6 +49,7 @@ useEffect(() => {
           <InfoContainer/>
           <WhatWeDo/>
           <ServiceContainer/>
+          <ContributionSection/>
           {/* <Difference/> */}
         {/* <Background/> */}
           {/* <InfoSection/> */}
