@@ -2,10 +2,13 @@ const styles = {
     wrapper: {
         // padding: '10px',
         // mt: '10rem',
+
+        position: 'relative',
+        bottom:[null, null, null, null,'390px',]
     },
     container: {
         // height: ['100%'],
-        height: '80%',
+        // height: '80%',
         width: '100%',
         display: 'flex',
         flexDirection: ['column', 'column', 'column', 'row'],

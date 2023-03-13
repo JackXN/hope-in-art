@@ -11,21 +11,21 @@ const DATA = [
     title: 'Give One Get One',
     description: "When you upload a submission and give back to the cause, recieve one of our unique art pieces",
     link: 'www.google.com',
-    image: './MissionImage.jpg'
+    image: './WomanPainting.png'
   },
   {
     id: 2,
     title: 'Volounteer Artist Submissions',
     description: 'When you upload a submission and give back to the cause, recieve one of our unique art pieces',
     link: 'www.google.com',
-    image: './MissionImage.jpg'
+    image: './Volunteer.jpg'
   },
   {
     id: 3,
     title: 'Requests From Organizations',
     description: 'Get help with connection to organizations that can help bring all of these products to someone who knows',
     link: 'www.jackrigan.com',
-    image: './MissionImage.jpg'
+    image: './requests.png'
   }
 
 ]
@@ -34,23 +34,22 @@ const DATA = [
 const Index = () => {
   return (
     <>
+    <Box sx={styles.wrapper}>
+    <Box sx={styles.container}>
     <Text as='h1'
     fontFamily='Poppins'
-    fontSize='28px'
-    fontWeight='bold'
     padding={[null,'30px']}
     mt='225px'
     mb={['30px']}
     ml={[null,null, null,'67px']}
-    
     >Help Us Make A Difference!</Text>
     <Box display='flex' flexDirection={['column', 'column','column', 'row']} justifyContent='center'>
   {DATA.map((item, index) => (
     <Card key={index} maxW='sm' boxShadow= '10px 10px 10px rgba(0,0,0,0.2)' margin='30px'>
       <CardBody>
-        <Image src={item.image} alt={item.title} borderRadius='lg'/>
+        <Image src={item.image} alt={item.title} borderRadius='lg' height='50%'/>
         <Stack mt='6' spacing='3'>
-          <Heading size='lg' bg='pink' color='white' padding='10px'>{item.title}</Heading>
+          <Heading size='md' bg='pink' color='white' padding='10px'>{item.title}</Heading>
           <Text>
             {item.description}
           </Text>
@@ -67,6 +66,8 @@ const Index = () => {
     </Card>
   ))}
 
+</Box>
+</Box>
 </Box>
   </>
   

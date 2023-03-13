@@ -34,7 +34,7 @@ const index = () => {
  <Box  
  >
           <Text as='p' sx={styles.description} data-aos='flip-right' data-aos-duration='1000'
-          data-aos-delay='20' padding='15px' backgroundColor='#375F98 !important'  color='white' fontFamily='Source Sans Pro' fontWeight='bolder' boxShadow= '10px 10px 10px rgba(0,0,0,0.2)'>
+          data-aos-delay='20' padding='15px' backgroundColor='#CFF0FF !important'  color='#000000' fontFamily='Source Sans Pro' fontWeight='bolder' boxShadow= '10px 10px 10px rgba(0,0,0,0.2)'>
           In addition to our recorded art classes, we also provide free art supplies to shelters. We understand that art supplies can be expensive, and we want to make sure that everyone has access to the tools they need to create. Aid us in making these tools accessible in our Double the Joy initiative!
           <Button color='black' ml='50px' mt={['35px', '35px', '35px', '20px']}>See How It Works</Button>
           </Text>

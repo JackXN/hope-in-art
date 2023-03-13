@@ -1,14 +1,31 @@
 const styles = {
     wrapper: {
-
+        position: 'relative',
+        bottom:[null, null, null, null,''],
+        padding: [null, null,null,'60px'],
+        borderRadius: '8px'
     },
 
 
     container: {
-        height:'600px',
-        background: 'orange',
+        height: '500px',
+       
+        // backgroundImage: './ContributionBanner.png',
+        // background: 'orange',
         display: 'flex',
-        flexDirection: ['column']
+        flexDirection: ['column'],
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+
+
+        h1:{
+            color: 'black',
+            fontSize: ['28px', '28px', '28px', '67px'],
+            fontWeight: 'bold',
+            textTransform: 'uppercase',
+            ml: [null,null, null,'67px'],
+        }
     },
 
 
