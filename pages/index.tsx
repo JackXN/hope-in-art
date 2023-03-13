@@ -19,7 +19,7 @@ import WhatWeDo from '../components/containers/WhatDoWeDo/index';
 import Background from '../components/Background';
 import Difference from '../components/containers/DifferenceSection/Index';
 import ServiceContainer from '../components/containers/ServiceContainer';
-
+import ContactForm from '../components/ContactForm';
 
 
 //! UPDATE BACKGROUND COLOR TO GRADIENT.
@@ -50,6 +50,7 @@ useEffect(() => {
           <WhatWeDo/>
           <ServiceContainer/>
           <ContributionSection/>
+          <ContactForm/>
           {/* <Difference/> */}
         {/* <Background/> */}
           {/* <InfoSection/> */}

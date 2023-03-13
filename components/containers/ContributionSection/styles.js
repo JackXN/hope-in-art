@@ -1,18 +1,15 @@
 const styles = {
     wrapper: {
         position: 'relative',
-        bottom:[null, null, null, null,''],
+        bottom:[null, null, null, null,'500px'],
         padding: [null, null,null,'60px'],
         borderRadius: '8px',
-        backgroundColor: '#E3DEEB !important'
+        // backgroundColor: '#E3DEEB !important'
     },
 
 
     container: {
         height: '100%',
-       
-        // backgroundImage: './ContributionBanner.png',
-        // background: 'orange',
         display: 'flex',
         flexDirection: ['column'],
         backgroundSize: 'cover',
@@ -22,10 +19,10 @@ const styles = {
 
         h1:{
             color: 'black',
-            fontSize: ['28px', '28px', '28px', '67px'],
+            fontSize: ['28px', '28px', '28px', '28px'],
             fontWeight: 'bold',
-            textTransform: 'uppercase',
-            ml: [null,null, null,'67px'],
+            // textTransform: 'uppercase',
+            ml: ['20px',null, '20px','67px'],
         }
     },
 

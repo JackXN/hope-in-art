@@ -49,7 +49,7 @@ const Index = () => {
       <CardBody>
         <Image src={item.image} alt={item.title} borderRadius='lg' height='50%'/>
         <Stack mt='6' spacing='3'>
-          <Heading size='md' bg='pink' color='white' padding='10px'>{item.title}</Heading>
+          <Heading size='md' bg='blue.100' color='white' padding='10px'>{item.title}</Heading>
           <Text>
             {item.description}
           </Text>
