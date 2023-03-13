@@ -20,7 +20,7 @@ import Background from '../components/Background';
 import Difference from '../components/containers/DifferenceSection/Index';
 import ServiceContainer from '../components/containers/ServiceContainer';
 import ContactForm from '../components/ContactForm';
-
+import Showcase from '../components/containers/ArtShowcase/Index';
 
 //! UPDATE BACKGROUND COLOR TO GRADIENT.
 // ? linear-gradient(135deg, #E5DDE1 0%, #E0DCEA 100%)
@@ -50,6 +50,7 @@ useEffect(() => {
           <WhatWeDo/>
           <ServiceContainer/>
           <ContributionSection/>
+          <Showcase/>
           <ContactForm/>
           {/* <Difference/> */}
         {/* <Background/> */}
