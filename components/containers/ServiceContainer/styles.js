@@ -97,6 +97,16 @@ const styles = {
 
     },
 
+    buttonContainer: {
+        display: 'flex',
+        
+
+        Button: {
+            marginLeft: '10px'
+        }
+
+    }
+
 
 
 }

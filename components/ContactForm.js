@@ -83,7 +83,6 @@ import {
                 Full Name
               </FormLabel>
               <Input type="name" name="name" color="white" />
-  
               <FormLabel mt="35px" color="white">
                 Email Address
               </FormLabel>
@@ -139,7 +138,10 @@ import {
       backgroundColor: 'blue.100',
       padding: '20px',
       borderRadius: '10px',
-      
+      backgroundImage: './ContactFormImage.png',
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat:'no-repeat',
       
 
     Image: {
@@ -147,12 +149,12 @@ import {
     },
   
       h1: {
-        color: "black",
+        color: "white",
         textAlign: "left",
         fontFamily: "Poppins",
         fontWeight: "bold",
         // fontSize: ["55px", "28px", "28px", "28px", "28px", '38px'],
-        fontSize: '65px',
+        fontSize: ['28px','28px','28px','28px','67px'],
         textAlign: 'left',
         textTransform: 'uppercase',
 

@@ -6,7 +6,7 @@ const index = () => {
   return (
     <Box sx={styles.wrapper} id="services">
       <Box sx={styles.container}>
-        <Box sx={styles.rightSideContainer}>
+        <Box sx={styles.rightSideContainer} data-aos='fade-up' data-aos-duration='1000' data-aos-delay='100'>
           <Image src="./ClassesImage.png" alt="Hope In Art Classes Image" />
         </Box>
 
@@ -34,13 +34,15 @@ const index = () => {
  <Box  
  >
           <Text as='p' sx={styles.description} data-aos='flip-right' data-aos-duration='2000'
-          data-aos-delay='1000' padding='15px' backgroundColor='#CFF0FF !important'  color='#000000' fontFamily='Source Sans Pro' fontWeight='bolder' boxShadow= '10px 10px 10px rgba(0,0,0,0.2)'>
+          data-aos-delay='20' padding='15px' backgroundColor='#CFF0FF !important'  color='#000000' fontFamily='Source Sans Pro' fontWeight='bolder' boxShadow= '10px 10px 10px rgba(0,0,0,0.2)'>
           In addition to our recorded art classes, we also provide free art supplies to shelters. We understand that art supplies can be expensive, and we want to make sure that everyone has access to the tools they need to create. Aid us in making these tools accessible in our Double the Joy initiative!
           <Button color='black' ml='50px' mt={['35px', '35px', '35px', '20px']}>See How It Works</Button>
           </Text>
           </Box>
-          <Button margin='20px' width='50%'>Learn More</Button>
-            <Button margin='10px' width='50%' >Register</Button>
+          <Box sx={styles.buttonContainer}>
+          <Button  width='50%' data-aos='flip-left' data-aos-duration='1000' data-aos-delay='100' >Learn More</Button>
+            <Button  width='50%' data-aos='flip-right' data-aos-duration='1000' data-aos-delay='100'>Register</Button>
+            </Box>
           <Box>
       
           </Box>
