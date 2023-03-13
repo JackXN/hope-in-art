@@ -32,7 +32,7 @@ const INFO = [
 const Index = () => {
   return (
     <Box sx={styles.wrapper}>
-      <Text as="h1" mb={['55px !important']}>How We Are Making A Difference</Text>
+      <Text as="h1" mb={['28px']}>How We Are Making A Difference</Text>
       <Box sx={styles.container}> 
         
         {/* CONTAINER ONE */}

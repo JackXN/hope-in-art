@@ -86,7 +86,7 @@ const styles = {
           textAlign: 'left',
             fontFamily: 'Poppins',
             fontWeight: 'bolder',
-            fontSize: ['28px', '28px', '28px', '28px', '55px'],
+            fontSize: ['28px', '28px', '28px', '28px', '28px'],
         },
 
         p: {

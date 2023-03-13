@@ -41,7 +41,7 @@ const Index = () => {
     padding={[null,'30px']}
     mt='225px'
     mb={['30px']}
-    ml={[null,null, null,'67px']}
+    
     >Help Us Make A Difference!</Text>
     <Box display='flex' flexDirection={['column', 'column','column', 'row']} justifyContent='center'>
   {DATA.map((item, index) => (

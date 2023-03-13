@@ -3,12 +3,13 @@ const styles = {
         position: 'relative',
         bottom:[null, null, null, null,''],
         padding: [null, null,null,'60px'],
-        borderRadius: '8px'
+        borderRadius: '8px',
+        backgroundColor: '#E3DEEB !important'
     },
 
 
     container: {
-        height: '500px',
+        height: '100%',
        
         // backgroundImage: './ContributionBanner.png',
         // background: 'orange',
