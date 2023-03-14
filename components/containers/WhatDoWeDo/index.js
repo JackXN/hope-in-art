@@ -23,9 +23,6 @@ return (
 <Box sx={styles.wrapper}>
 <Box sx={styles.container}>
   {/* <Text as='h1'>What We Do</Text> */}
-
-
-
 <Box sx={styles.content}>
 <Box sx={styles.leftContent}>
     <Text as='h1' data-aos='fade-down' data-aos-duration='1000' data-aos-delay='100'>We Help People Heal <br/> Through Their Own <br/> Creative Process</Text>
@@ -39,8 +36,9 @@ return (
         <ModalContent>
           <ModalHeader fontFamily='Lato' fontWeight='bold' mt='30px'>The Hope In Art Mission Statement</ModalHeader>
           <ModalCloseButton />
-       <Text as='p' padding='30px'>Our mission is to empower women in crisis housing by providing access to art classes and supplies. We believe that creative expression is a powerful tool for healing and personal growth, and we aim to provide a safe and supportive environment where women can explore their creativity, build confidence, and develop new skills. Through our programs, we strive to help women develop a positive self-image, cultivate a sense of community, and find joy in the artistic process. Our goal is to create a pathway to healing and transformation for women in shelters, and to inspire them to unlock their creative potential and build a brighter future for themselves and their families.</Text>
-
+       <Text as='p' padding='30px'>Our mission is to empower women in crisis housing by providing access to art classes and supplies. We believe that creative expression is a powerful tool for healing and personal growth, and we aim to provide a safe and supportive environment where women can explore their creativity, build confidence, and develop new skills. 
+       Through our programs, we strive to help women develop a positive self-image, cultivate a sense of community, and find joy in the artistic process. Our goal is to create a pathway to healing and transformation for women in shelters, and to inspire them to unlock their creative potential and build a brighter future for themselves and their families.
+       </Text>
           <ModalFooter>
             <Button colorScheme='blue' mr={3} onClick={onClose}>
               Close

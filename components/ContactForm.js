@@ -83,7 +83,7 @@ import {
                 Full Name
               </FormLabel>
               <Input type="name" name="name" color="white" />
-              <FormLabel mt="35px" color="white">
+              <FormLabel mt="35px" color="black">
                 Email Address
               </FormLabel>
               <Input
@@ -94,12 +94,12 @@ import {
               />
               <FormHelperText>We will never share your email</FormHelperText>
   
-              <FormLabel mt="35px" color="white">
+              <FormLabel mt="35px" color="black">
                 Subject
               </FormLabel>
-              <Input required={true} name="user_reviews" color="white" />
+              <Input required={true} name="user_reviews" color="black" />
   
-              <FormLabel mt="20px" color="white">
+              <FormLabel mt="20px" color="black">
                 Message
               </FormLabel>
               <Textarea
@@ -110,7 +110,7 @@ import {
                 borderLeft="none"
                 borderBottom="solid gray 1px"
                 name="message"
-                color="white"
+                color="black"
               />
             </FormControl>
             <Button mt={["20px"]} type="submit" value="send">
@@ -124,7 +124,7 @@ import {
   
   const styles = {
     wrapper: {
-    //   mt: "90px"
+      mt: "90px"
     },
     container: {
       display: "flex",
