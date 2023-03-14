@@ -18,8 +18,12 @@ SwiperCore.use([Navigation]);
 const Index = () => {
   return (
     <>
+    <Box
+    display={['flex', 'flex', 'flex','none']}
+    flexDirection='column'
     
-
+    
+    >
         <Text as='h1'
         fontFamily='poppins'
         fontSize='28px'
@@ -31,13 +35,14 @@ const Index = () => {
         }}
         
         >Check Out Our Monthly Features!</Text>
+        <Text as='p' color='lightgray' textAlign='center'>(Swipe Left)</Text>
     <Swiper 
 style={{
     paddingTop: ['50px'],
-    background: 'pink',
+    // background: 'pink',
     marginBottom: ['190px'],
     padding:[null,null,'190px','190px', '190px'],
-    display: ['flex']
+    display: ['flex','flex', 'none', 'none', 'none' ]
 }}
     ScreensPerView={2}
     spaceBetween={10}
@@ -64,6 +69,7 @@ style={{
         </Box>
         </SwiperSlide>
     </Swiper>
+    </Box>
     </>
   );
 };
