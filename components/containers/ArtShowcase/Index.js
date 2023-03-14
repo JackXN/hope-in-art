@@ -1,56 +1,57 @@
-import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import SwiperCore, { Navigation, Pagination, Controller, Thumbs } from 'swiper'
+import 'swiper/swiper-bundle.css'
+import {Image,Text,Box,} from '@chakra-ui/react';
 
-import {Box, Text, Image, Link} from '@chakra-ui/react';
-// import { Carousel } from "chakra-ui-carousel";
-  // import Swiper bundle with all modules installed
-
-
-  // import styles bundle
-  import 'swiper/css/bundle';
-
-  import Swiper, { Navigation, Pagination } from 'swiper';
-  // import Swiper and modules styles
-  import 'swiper/css';
-  import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-
-  var mySwiper = new Swiper('.swiper-container', {
-    speed: 400,
-    spaceBetween: 100
-});
+SwiperCore.use([Navigation]);
 
 
 const Index = () => {
   return (
-    <div class="swiper-container">
-    {/* <!-- Additional required wrapper --> */}
-    <div class="swiper-wrapper">
-        {/* <!-- Slides --> */}
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
-    </div>
-    {/* <!-- If we need pagination --> */}
-    <div class="swiper-pagination"></div>
+    <>
+    <Box
+    display='flex'
+    flexDirection='column'
+    textAlign='center'
+    justifyContent='center'
+    alignItems='center'
+    position='relative'
+    top='30px'
+    height='50%'
+    >
 
-    {/* <!-- If we need navigation buttons --> */}
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+        <Text as='h1'
+        fontFamily='poppins'
+        fontSize='28px'
+        mb='35px'
+        fontWeight='bold'
+        
+        
+        
+        >Check Out Our Monthly Features!</Text>
+    <Swiper 
 
-    {/* <!-- If we need scrollbar --> */}
-    <div class="swiper-scrollbar"></div>
-</div>
+    ScreensPerView={2}
+    spaceBetween={10}
+    >
+      <SwiperSlide className='swiper'><Image src='./CarouselOne.jpeg' alt='Carousel Image' />
+      <Text as='h1' fontSize='20px'>Skater</Text>
+        <Text as='p'>By: <br/> Peter Delira</Text>
+      </SwiperSlide>
+      <SwiperSlide><Image src='./CarouselTwo.jpeg' alt='Carousel Image'/>
+      <Text as='h1'>Skater</Text>
+        <Text as='p'>By: <br/> Peter Delira</Text>
+            </SwiperSlide>
+      <SwiperSlide>
+        <Image src='CarouselThree.jpg'/>
+        <Text as='h1'>Skater</Text>
+        <Text as='p'>By: <br/> Peter Delira</Text>
+        </SwiperSlide>
+    </Swiper>
+    </Box>
+    </>
+  );
+};
 
-  )
-}
 
-
-
-const styles = {
-    wrapper: {
-
-    }
-}
-
-export default Index
+export default Index;

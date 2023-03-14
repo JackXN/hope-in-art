@@ -8,6 +8,10 @@ const theme = customTheme;
 
 
 
+
+
+
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>

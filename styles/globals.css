@@ -40,12 +40,32 @@
 }
 
 
+ 
+.swiper {
+ /* margin-top: 50px; */
+ /* height: 50%; */
+ /* display: flex; */
+ /* background: orange; */
+ height: 50% !important;
+ 
+
+} 
 
 
+/* .swiper-wrapper {
+height: 100%;
+
+} */
+
+/* .swiper-pagination {
+  display: flex;
+
+} */
 
 
-
-
+.swiper {
+  /* height: 500px !important; */
+}
 
 
 :root {
