@@ -164,7 +164,7 @@ import {
       p: {
         background: "none !important",
         textAlign: "left",
-        color: "black",
+        color: "white",
         width: "90% !important",
         mt: ["30px"],
         mb: ["30px"],
