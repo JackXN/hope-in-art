@@ -43,7 +43,8 @@ style={{
     marginBottom: ['190px'],
     padding:[null,null,'190px','190px', '190px'],
     display: ['flex','flex', 'none', 'none', 'none' ],
-    paddingBottom: '60px'
+    paddingBottom: '60px',
+    // boxShadow: "10px 8px 8px 7px #1D1D1D",
 }}
     ScreensPerView={2}
     spaceBetween={10}
