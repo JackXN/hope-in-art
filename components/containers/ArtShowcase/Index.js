@@ -19,8 +19,8 @@ const Index = () => {
   return (
     <>
     <Box
-    display={['flex', 'flex', 'flex','none']}
-    flexDirection='column'
+    // display={['flex', 'flex', 'flex','none']}
+    // flexDirection='column'
     
     
     >
@@ -42,7 +42,8 @@ style={{
     // background: 'pink',
     marginBottom: ['190px'],
     padding:[null,null,'190px','190px', '190px'],
-    display: ['flex','flex', 'none', 'none', 'none' ]
+    display: ['flex','flex', 'none', 'none', 'none' ],
+    paddingBottom: '60px'
 }}
     ScreensPerView={2}
     spaceBetween={10}
