@@ -12,8 +12,6 @@ const index = () => {
 <Box sx={styles.imageContainer}  data-aos='flip-left'
       data-aos-duration='1000' data-aos-delay='20'>
         {/* <Image  src={'./AboutUsImage.jpeg'} alt='About HART' */}
-
-
     </Box>
     <Box sx={styles.imageBanner}  data-aos='flip-right'
       data-aos-duration='1000' data-aos-delay='20'>
