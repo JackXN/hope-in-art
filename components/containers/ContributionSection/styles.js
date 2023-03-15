@@ -1,7 +1,7 @@
 const styles = {
     wrapper: {
         position: 'relative',
-        bottom:[null, null, null, null,'500px'],
+        // bottom:[null, null, null, null,'500px'],
         padding: [null, null,null,'60px'],
         borderRadius: '8px',
         // backgroundColor: '#E3DEEB !important'

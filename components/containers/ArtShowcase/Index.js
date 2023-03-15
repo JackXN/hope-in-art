@@ -3,11 +3,11 @@ import SwiperCore, { Navigation, Pagination, Controller, Thumbs } from 'swiper'
 import 'swiper/swiper-bundle.css'
 import {Image,Text,Box,} from '@chakra-ui/react';
 
+import Carousel from '../../Carousel';
 
 
 
-
-// REACT SLICK
+// REACT SLICKzsd
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -18,7 +18,17 @@ SwiperCore.use([Navigation]);
 const Index = () => {
   return (
     <>
-    <Box
+    
+    
+    
+    
+    
+    
+    <Carousel/>
+    
+    
+    
+    {/* <Box
     // display={['flex', 'flex', 'flex','none']}
     // flexDirection='column'
     
@@ -71,7 +81,7 @@ style={{
         </Box>
         </SwiperSlide>
     </Swiper>
-    </Box>
+    </Box> */}
     </>
   );
 };

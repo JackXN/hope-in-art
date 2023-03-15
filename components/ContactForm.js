@@ -65,16 +65,16 @@ import {
     return (
       <Box sx={styles.wrapper} id='contact'>
         <Box sx={styles.container} mb="200px">
-          <Box sx={styles.leftSideContainer}>
-            <Text as="h1">Get In Touch With Us Today</Text>
+          <Box sx={styles.leftSideContainer} data-aos='flip-left' data-aos-delay='20' data-aos-duration='2000'>
+            <Text as="h1">Get In Touch With Us Today!</Text>
             <Text as="p">
-            We value your feedback! Please take a few moments to share your thoughts with us. What do you like about our product/service? What can we improve on? Your input will help us better serve you in the future.
+            Are you passionate about making a difference in your community? We welcome you to get in touch with us to learn more about our organizations initiatives and how you can help us create a positive impact. 
             </Text>
     {/* <Image src='./EventsImage.png' alt='Pink Lady Image Hope In Art'/>  */}
             {/* <Text as="p">t_ptransport@yahoo.com</Text> */}
             {/* <Text as="p">Tel: 385-394-7953 / 385-302-4843</Text> */}
           </Box>
-          <Box sx={styles.rightSideContainer}>
+          <Box sx={styles.rightSideContainer} data-aos='flip-right' data-aos-delay='20' data-aos-duration='2000'>
             <FormControl width="50%"> 
               {/* <Text as="h2" color="orange">
                 Let Us Know What You Think!
@@ -124,7 +124,8 @@ import {
   
   const styles = {
     wrapper: {
-      mt: "90px"
+      position: 'relative',
+      bottom: ['290px']
     },
     container: {
       display: "flex",
@@ -135,19 +136,19 @@ import {
   
     leftSideContainer: {
       flex: 3,
-      backgroundColor: 'blue.100',
-      padding: '20px',
+      backgroundColor: '#3E6AA6',
+      padding: ['20px', '20px', '20px', '20px', '50px'],
       borderRadius: '10px',
-      backgroundImage: './ContactFormImage.png',
+      // backgroundImage: './ContactFormImage.png',
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat:'no-repeat',
+      // boxShadow: "10px 3px 6px 8px gray",
       
 
     Image: {
        
     },
-  
       h1: {
         color: "white",
         textAlign: "left",
@@ -176,7 +177,7 @@ import {
     rightSideContainer: {
       flex: 3,
       // background: 'white !important',
-      boxShadow: "10px 10px 15px 10px #1D1D1D",
+      boxShadow: "10px 8px 15px 10px #1D1D1D",
       padding: "15px",
       display: "flex",
       flexDirection: "column",

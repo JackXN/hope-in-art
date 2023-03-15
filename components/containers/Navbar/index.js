@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   Box,
   Flex,
-  Link,
+  
   Text,
   IconButton,
   useDisclosure,
@@ -11,16 +11,15 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
-  useColorMode,
+  useColorMode
 } from "@chakra-ui/react";
-import Image from 'next/image';
+import Image from "next/image";
 import { useRouter } from "next/router";
 
+import { HamburgerIcon } from "@chakra-ui/icons";
 
-
-import {HamburgerIcon} from '@chakra-ui/icons';
-
-import Logo from '../../../public/Logo.png'
+import Logo from "../../../public/Logo.png";
+import * as Scroll from "react-scroll";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -28,29 +27,41 @@ const Navbar = () => {
   const [show, setShow] = useState(null);
   const router = useRouter();
 
+  const Link = Scroll.Link;
+
   return (
     <Flex
       as="nav"
       align="center"
       justify="space-between"
+      
       wrap="wrap"
       padding="1.5rem"
       bg={colorMode === "light" ? "transparent" : "teal.500"}
       color="white"
-      position="absolute"
-      top={10}
+      // position="absolute"
+      position='relative'
+      
+      top={90}
       right={0}
       left={0}
       zIndex={4}
+      display={["flex", "flex", "flex", "flex", "flex", "none"]}
     >
       <Box display={{ sm: "block", md: "none" }} onClick={onOpen}>
+      
         <IconButton
           icon={<HamburgerIcon/>}
           aria-label="Toggle navigation"
-          color='black'
+          color="white"
+          background="blue.200"
           transition="all 0.3s ease-in-out"
           _hover={{ transform: "scale(1.1)" }}
           onClick={() => setShow(!show)}
+          fontSize="25px"
+          mt="20px"
+          position='relative'
+          bottom ='50px'
         />
       </Box>
 
@@ -61,38 +72,99 @@ const Navbar = () => {
         finalFocusRef={null}
       >
         <DrawerOverlay />
-        <DrawerContent bg='#0E5E52'>
+        <DrawerContent bg='white !important'>
           <DrawerCloseButton />
-          <DrawerBody display='flex' flexDirection='column' fontSize={'35px'} padding={'30px'} margin={'30px'} color='white' >
-            <Link onClick={onClose} href='/'><a style={{textDecoration: 'none'}} className={router.pathname == '/' ? 'active' : ""} >Home</a></Link>
-            <Link onClick={onClose} href='/about'><a className={router.pathname == '/about' ? 'active' : ""} >About</a></Link>
-            <Link onClick={onClose} href='/gallery'><a className={router.pathname == '/gallery' ? 'active' : ""} >Gallery</a></Link>
-            <Link onClick={onClose} href='/artists'><a className={router.pathname == '/artists' ? 'active' : ""} >Artists</a></Link>
-            <Link onClick={onClose} href='/sponsors'><a className={router.pathname == '/sponsors' ? 'active' : ""} >Sponsors</a></Link>
-            <Link onClick={onClose} href='/FAQ'><a className={router.pathname == 'faq' ? 'active' : ""} >FAQ</a></Link>
+          <DrawerBody
+            display="flex"
+            flexDirection="column"
+            fontSize={"35px"}
+            padding={"30px"}
+            margin={"30px"}
+            color="black"
+          >
+            <Link activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              cursor="pointer"
+              color='black'>
+              
+           
+                Home
+              
+            </Link>
+            <Link activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              cursor="pointer">
+              
+                About Us
+              
+            </Link>
+            <Link  activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              cursor="pointer">
+              
+                Services
+              
+            </Link>
+            <Link activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              cursor="pointer">
+              
+                Contact Us
+              
+            </Link>
+            <Link onClick={onClose} href="/sponsors">
+              <a className={router.pathname == "/sponsors" ? "active" : ""}></a>
+            </Link>
+            <Link activeClass="active"
+              to="pricing"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              cursor="pointer">
+                Submissions
+            </Link>
+            <Link activeClass="active"
+              to="pricing"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              cursor="pointer">
+                Gallery
+            </Link>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
 
       <Flex align="center">
-<Image src={Logo} alt='logo' style={{height: '80px', width:'80px'}}/>
+        {/* <Image src={Logo} alt='logo' style={{height: '40px', width:'40px',marginTop: '30px'}} /> */}
       </Flex>
-      <Box display={{ sm: "none", md: "block" }}>
+      <Box display={{ sm: "block", md: "block" }}>
         <IconButton
           icon="moon"
-          display='none'
+          display="none"
           onClick={toggleColorMode}
           transition="all 0.3s ease-in-out"
           _hover={{ transform: "scale(1.1)" }}
         />
-
-
       </Box>
-
-
-
-
-
     </Flex>
   );
 };

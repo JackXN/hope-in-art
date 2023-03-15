@@ -23,6 +23,7 @@ import ContactForm from '../components/ContactForm';
 import Showcase from '../components/containers/ArtShowcase/Index';
 import Footer from '../components/Footer';
 import ErrorPage from '../components/ErrorPage';
+import Carousel from '@/components/Carousel';
 //! UPDATE BACKGROUND COLOR TO GRADIENT.
 // ? linear-gradient(135deg, #E5DDE1 0%, #E0DCEA 100%)
 
@@ -46,15 +47,15 @@ useEffect(() => {
       </Head>
       <Box padding='10px'>
           {/* <Navbar/> */}
-          {/* <Hero/>
+           <Hero/>
           <InfoContainer/>
           <WhatWeDo/>
           <ServiceContainer/>
           <ContributionSection/>
-          <Showcase/>
+           <Carousel/>
           <ContactForm/>
-          <Footer/> */}
-          <ErrorPage/>
+          <Footer/> 
+          {/* <ErrorPage/> */}
           {/* <Difference/> */}
         {/* <Background/> */}
           {/* <InfoSection/> */}

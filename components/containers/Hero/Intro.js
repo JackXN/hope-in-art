@@ -5,16 +5,16 @@ import {AiOutlineArrowRight as Arrow} from 'react-icons/ai';
 
 const Intro = () => {
   return (
-    <Box sx={styles.container}>
-    <Text as='h2'>The Hope In <br/> Art Association</Text>
+    <Box sx={styles.container} data-aos='fade-in' data-aos-duration='1000' data-aos-delay='20'>
+    <Text as='h2' data-aos='fade-left' data-aos-duration='1000' data-aos-delay='20'>The Hope In <br/> Art Association</Text>
     <Box sx={styles.content}>
-<Text as='p'>
+<Text as='p' data-aos='fade-right' data-aos-duration='1000' data-aos-delay='20'>
     Welcome to the Hope In Art Association, a non-profit organization that believes in the power of art to transform lives. We are dedicated to helping the homeless community by providing opportunities for creative expression and personal growth through art.
     </Text>
     </Box>
     <Button
     bg='none'
-    ><Link>See Our Programs</Link> <Arrow/></Button>
+    ><Link data-aos='fade-right' data-aos-duration='1000' data-aos-delay='20'>See Our Programs</Link> <Arrow data-aos='fade-left' data-aos-duration='1000' data-aos-delay='20'/></Button>
     </Box>
   )
 }

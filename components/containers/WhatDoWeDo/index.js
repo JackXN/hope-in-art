@@ -20,7 +20,7 @@ const Index = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
 return (
-<Box sx={styles.wrapper}>
+<Box sx={styles.wrapper} id='about'>
 <Box sx={styles.container}>
   {/* <Text as='h1'>What We Do</Text> */}
 <Box sx={styles.content}>
@@ -49,7 +49,7 @@ return (
       </Modal>
 </Box>
 <Box sx={styles.rightContent} data-aos='fade-in' data-aos-duration='1000' data-aos-delay='100'>
-    <Image src={'./WhatWeDo.png'} alt='What We Do' 
+    <Image src={'./AboutUsImage.png'} alt='What We Do' 
     mt={[null,null,null,'285px']}
     
     />

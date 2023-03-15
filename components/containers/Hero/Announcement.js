@@ -12,7 +12,7 @@ const ANNOUNCEMENT = 'Double The Joy: Buy One Art Package, Give One To A Womans 
 
 const Announcement = () => {
   return (
-<Box sx={styles.container}>
+<Box sx={styles.container} data-aos='fade-left' data-aos-duration='2000' data-aos-delay='20'>
     <Box sx={styles.textContainer}>
     <Text as='p'>Announcement</Text>
     <Text as='h2'>{ANNOUNCEMENT}</Text>
