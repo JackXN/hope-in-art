@@ -57,7 +57,7 @@ const callouts = [
       <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos='slide-right' data-aos-duration='2000' data-aos-delay='20'>
       Volounteer Artist Submissions
       </h3>
-      <p class="text-lg font-light leading-relaxed mt-0 mb-10 text-blueGray-600" data-aos='fade-down' data-aos-duration='2000' data-aos-delay='20'>
+      <p class="text-lg font-light leading-relaxed mt-0 mb-10 text-blueGray-600" data-aos='slide-left' data-aos-duration='2000' data-aos-delay='20'>
       We are currently accepting submissions for our upcoming art exhibit celebrating community and diversity. If you have a passion for art and want to contribute to a meaningful cause, we invite you to submit your work for consideration. ,
       </p>
         <blockquote class="relative p-8 mb-4">
