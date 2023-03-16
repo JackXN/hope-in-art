@@ -44,24 +44,7 @@ import {
   
     const [input, setInput] = useState("");
   
-    // const handleSubmit = (e) => {
-    //   e.preventDefault();
-  
-    //   emailjs
-    //     .sendForm(
-    //       "service_oqrvcyb",
-    //       "template_n6rh0an",
-    //       e.target,
-    //       "wELH_zZcMIDEW6eMb"
-    //     )
-    //     .then((res) => {
-    //       console.log(res);
-    //     })
-    //     .catch((error) => {
-    //       console.log(error);
-    //     });
-    // };
-  
+   
     return (
       
 <section class="relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]" data-aos='slide-left' data-aos-duration='2000' data-aos-delay='20'>
@@ -78,7 +61,7 @@ import {
             Get In Touch With Us
           </h2>
           <p class="text-body-color mb-9 text-base leading-relaxed">
-          If youre passionate about making a positive impact in your community and want to join forces with like-minded individuals, reach out to The Hart Foundation for opportunities to get involved and make a difference. Whether it's volunteering, donating, or collaborating on a project, we're always looking for passionate individuals who share our vision of creating a better world for all. Contact us today to see how you can get involved!
+          If youre passionate about making a positive impact in your community and want to join forces with like-minded individuals, reach out to The Hart Foundation for opportunities to get involved and make a difference. Whether its volunteering, donating, or collaborating on a project, were always looking for passionate individuals who share our vision of creating a better world for all. Contact us today to see how you can get involved!
           </p>
           <div class="mb-8 flex w-full max-w-[370px]">
             <div
