@@ -52,27 +52,9 @@ const ListHeader = ({ children }, { children: ReactNode }) => {
 export default function LargeWithLogoCentered() {
   return (
     <>
-    <Box display={['flex']} flexDirection='column' data-aos='fade-in' data-aos-duration='200' data-aos-delay='20'>
+    <Box display={['flex']} flexDirection='column' data-aos='fade-in' data-aos-duration='2000' data-aos-delay='20'>
       
-    <Box height='300px' width={['100%', '100%', '75%']} bg='blue.100' display={['flex', 'flex', 'flex', 'none', 'none']} justifyContent='center' alignItems='center' flexDirection='column' alignSelf='center' padding='30px' borderRadius='20px' position='relative' top='5px' boxShadow= "3px 5px 7px 5px gray">
-    {/* <Image src='./HartLogo.png' alt='Logo' height='' width='10%'/> */}
 
-    <Box textAlign='left' flex={2} display='flex' flexDirection='column' >
-<Text as='h1' fontFamily='Poppins' fontWeight='Bold' color='white' fontSize={['20px', '20px']}>Sign Up For Our <br/> Newsletter!</Text>
-
-<Text as='p' color='gray' fontSize={['14px', '14px']}>
-Recieve Weekly Updates About Upcoming events and oppurtunities within your community!
-</Text>
-
-</Box>
-<Box display='flex' justifyContent='center' alignItems='center' flexDirection='column' position='relative' top={['20px']} flex='2'>
-<FormControl display='flex' justifyContent='center' alignItems='center' position='relative' mb={['20px']}>
-  <Input bg='white' border='none' placeholder='example@email.com' textAlign='center'
-  />
-  </FormControl>
-  <Button fontSize='12px'>Submit</Button>
-</Box>
-    </Box>
 
 
     <Box

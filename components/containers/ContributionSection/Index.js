@@ -54,7 +54,6 @@ const Index = () => {
             mb={["30px"]}
           >
             Help Us Make A Difference!
-
           </Text>
           <Box
             display="flex"

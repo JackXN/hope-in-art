@@ -65,11 +65,8 @@ const styles = {
     wrapper: {
         // mt: ['100px'],
         position: 'relative',
-        bottom:'200px',
         left: [null,null,null,'5%']
-        
-      
-        
+
     },
 
     container: {
@@ -93,6 +90,7 @@ h1: {
 color: 'black',
 fontWeight: 'bold',
 display: 'flex',
+
 
 mt: ['150px', null, null, null, '0px']
 
