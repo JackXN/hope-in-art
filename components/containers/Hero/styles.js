@@ -36,8 +36,8 @@ const styles = {
 height: ['100%'],
 width: ['100%', '100%', '50%', '25%', '25%'],
 position: 'relative',
-left: [null, null,null,'100px', '155px',],
-top: [null,null,null, '290px', '300px',],
+left: [null, null,null,'100px', '155px', '300px'],
+top: [null,null,null, '290px', '300px', '450px'],
 mb: [null,null,null,'120px'], 
 right: [null,null,null ]
 
@@ -58,14 +58,16 @@ right: [null,null,null ]
         content: '""',
         height: ['85vh','85vh','85vh','85vh', '85vh','85vh','62vh'],
         width: '2000px',
-        background: '#3E6AA6',
+        // background: '#3E6AA6',
+        background: '#8DB4F7',
         position: 'absolute',
         left: '-350px',
         top: ['290px', '450', '450', '450','675px'],
         bottom: '0',
         transform: 'rotate(160deg)',
         zIndex: 0,
-        boxShadow: '10px 10px 10px rgba(0,0,0,0.2)'
+        boxShadow: '10px 10px 10px rgba(0,0,0,0.2)',
+        display: [null, null, null,null,null,null, 'none']
     },
 
 
@@ -81,7 +83,7 @@ right: [null,null,null ]
         
 
         h1: {
-            color: '#FFFFFF',
+            color: ['#FFFFFF', null, null,null,null,null, 'black'],
             fontSize: ['28px', '28px', '33px'],
             fontFamily: 'Roboto',
             fontWeight: 'bold',
@@ -99,6 +101,7 @@ right: [null,null,null ]
 
         p: {
             color: '#FFFFFF',
+            color: ['#FFFFFF', null, null,null,null,, 'black'],
             fontFamily:'Lato',
             color: 'lightgray',
             fontSize: ['16px', '16px', '17px'],

@@ -27,7 +27,8 @@ import Footer from '../components/Footer';
 import ErrorPage from '../components/ErrorPage';
 import Carousel from '../components/Carousel';
 import Test from '../components/test';
-
+import DesktopNav from '../components/containers/Navbar/DesktopNav';
+import HeroTwo from '../components/containers/Hero/HeroTwo';
 //! UPDATE BACKGROUND COLOR TO GRADIENT.
 // ? linear-gradient(135deg, #E5DDE1 0%, #E0DCEA 100%)
 
@@ -53,7 +54,9 @@ useEffect(() => {
       </Head>
       <Box padding='10px'>
           {/* <Navbar/> */}
+          <DesktopNav/>
            <Hero/>
+           {/* <HeroTwo/> */}
           <InfoContainer/>
           <WhatWeDo/>
           <Test/>

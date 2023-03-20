@@ -23,7 +23,7 @@ const Panel = () => {
               <div class="bg-green-200 rounded-full p-2 fill-current text-blue-700">
                
               </div>
-              <span class="text-gray-700 text-lg ml-3">No setup, monthly, or hidden fees</span>
+              <span class="text-gray-700 text-lg ml-3">Offered To Shelters Free Of Cost</span>
             </li>
             <li class="flex items-center mt-3">
               <div class="bg-green-200 rounded-full p-2 fill-current text-green-700">

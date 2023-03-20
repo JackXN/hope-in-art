@@ -47,10 +47,7 @@ const Index = () => (
           </Text>
           <Text as="p">
             Welcome to the Hope In Art Association, a non-profit organization
-            that believes in the power of art to transform lives. We are
-            dedicated to helping the homeless community by providing
-            opportunities for creative expression and personal growth through
-            art.
+            that believes accessibility, safety, and healing through recorded art classes with necessary supplies.
           </Text>
         </Box>
       </Box>

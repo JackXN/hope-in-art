@@ -6,7 +6,7 @@ const styles = {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        // padding: ['12px', '12px', '20px', '35px', '40px', '50px'],
+        padding: ['12px', '12px', '20px', '35px', '40px', '50px'],
 
     },
     container: {

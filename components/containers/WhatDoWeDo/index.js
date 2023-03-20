@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Box, Text, Image, Button} from '@chakra-ui/react';
-
+import HopeCard from './HopeCard';
 
 
 import {
@@ -39,6 +39,7 @@ return (
        <Text as='p' padding='30px'>Our mission is to empower women in crisis housing by providing access to art classes and supplies. We believe that creative expression is a powerful tool for healing and personal growth, and we aim to provide a safe and supportive environment where women can explore their creativity, build confidence, and develop new skills. 
        Through our programs, we strive to help women develop a positive self-image, cultivate a sense of community, and find joy in the artistic process. Our goal is to create a pathway to healing and transformation for women in shelters, and to inspire them to unlock their creative potential and build a brighter future for themselves and their families.
        </Text>
+       <HopeCard/>
           <ModalFooter>
             <Button colorScheme='blue' mr={3} onClick={onClose}>
               Close

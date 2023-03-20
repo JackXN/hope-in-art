@@ -55,10 +55,10 @@ const callouts = [
     <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
       <div class="relative flex flex-col  min-w-0 break-words bg-gray w-full mb-2 shadow-lg rounded-lg bg-white-500">
       <h3 class="text-3xl mb-2 font-semibold leading-normal" data-aos='slide-right' data-aos-duration='2000' data-aos-delay='20'>
-      Volounteer Artist Submissions
+      We Run On The Beautiful Art Classes Made By Our Talented Volounteers.
       </h3>
       <p class="text-lg font-light leading-relaxed mt-0 mb-10 text-blueGray-600" data-aos='slide-left' data-aos-duration='2000' data-aos-delay='20'>
-      We are currently accepting submissions for our upcoming art exhibit celebrating community and diversity. If you have a passion for art and want to contribute to a meaningful cause, we invite you to submit your work for consideration. ,
+   If you have a passion for art and want to contribute to a meaningful cause, we invite you to submit your work for consideration. ,
       </p>
         <blockquote class="relative p-8 mb-4">
         <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block h-95-px -top-94-px">

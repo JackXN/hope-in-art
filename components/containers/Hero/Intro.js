@@ -30,6 +30,7 @@ const styles = {
     mt: ['150px' , '150px', '150px', '0px'],
     width: ['100%', '50%', null,'43%'],
     height: '100%',
+
     // flex: [null, null, null, 3],
     
     
