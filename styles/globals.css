@@ -1,4 +1,7 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Julee */
 @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
@@ -13,9 +16,6 @@
 
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
 
@@ -190,3 +190,7 @@ a {
   border-radius: 10px;
 }
 
+
+a {
+  cursor: pointer !important;
+}

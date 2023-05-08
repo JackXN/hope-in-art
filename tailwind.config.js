@@ -12,8 +12,11 @@ module.exports = {
 
 
   fontFamily: {
-    poppins: ['Poppins']
+    poppins: ['Poppins'],
+    Lato: ['Lato']
+     
   },
 
   plugins: [require('@tailwindcss/aspect-ratio'),require('flowbite/plugin')],
 }
+

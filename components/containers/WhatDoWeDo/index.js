@@ -50,7 +50,7 @@ return (
       </Modal>
 </Box>
 <Box sx={styles.rightContent} data-aos='fade-in' data-aos-duration='1000' data-aos-delay='100'>
-    <Image src={'./AboutUsImage.png'} alt='What We Do' 
+    <Image src={'./WhatWeDoImage.png'} alt='What We Do' 
     mt={[null,null,null,'285px']}
     
     />

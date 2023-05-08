@@ -21,6 +21,7 @@ import {
   Button
 } from '@chakra-ui/react'
 import styles from './containers/Hero/styles';
+import NewsLetter from './Newsletter';
 
 const Logo = (props, any) => {
   return (
@@ -55,7 +56,7 @@ export default function LargeWithLogoCentered() {
     <Box display={['flex']} flexDirection='column' data-aos='fade-in' data-aos-duration='2000' data-aos-delay='20'>
       
 
-
+<NewsLetter/>
 
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}

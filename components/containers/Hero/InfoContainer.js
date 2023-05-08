@@ -11,6 +11,7 @@ import Intro from './Intro';
 const InfoContainer = () => {
   return (
 <Box padding={['15px', null, null, '60px', '190px']}
+pb='0px'
 display='flex'
 flexDirection={['column', 'column', 'row-reverse']}
 position='relative'

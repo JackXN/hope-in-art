@@ -7,6 +7,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         padding: ['12px', '12px', '20px', '35px', '40px', '50px'],
+        pb: 0,
 
     },
     container: {
