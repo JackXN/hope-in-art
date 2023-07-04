@@ -61,7 +61,7 @@ useEffect(() => {
           <WhatWeDo/>
           <Test/>
           <Panel/>
-          <Carousel/>
+          {/* <Carousel/> */}
            
           <ContactForm/>
           
